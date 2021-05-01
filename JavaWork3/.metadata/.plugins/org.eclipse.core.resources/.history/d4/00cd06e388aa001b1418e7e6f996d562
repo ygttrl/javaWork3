@@ -1,0 +1,20 @@
+
+public class StudentManager extends UserManager {
+
+		public void Add(Student student) 
+		{
+			System.out.println(
+						"id :"+student.id+
+						"\nStudent"+student.Name+
+						"\nStudent"+student.Surname+
+						"\nStudent"+student.identityNumber+
+						"\nStudent"+student.studentNumber+
+						"\nStudent"+student.courseName
+					);
+		}
+		
+		public void AddMultiple(Student student) 
+		{
+			
+		}
+    }

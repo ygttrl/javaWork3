@@ -1,0 +1,21 @@
+
+public class InstructorManager extends UserManager {
+	
+	 public void Add(Instructor instructor) 
+	 {
+		 System.out.println(
+				 	"id :"+ instructor.id+
+				 	"\nAd :"+ instructor.Name+
+				 	"\nSoyad :"+ instructor.Surname+
+				 	"\nidentityNumber :"+ instructor.identityNumber+
+				 	"\nidentityNumber :"+ instructor.instructorNumber
+				 );
+	 }
+	 
+	 public void AddMultiple(Instructor[] instructors) 
+	 {
+		 for (Instructor instructor : instructors) {
+			Add(instructor);
+		}
+	 }
+}

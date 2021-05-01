@@ -1,0 +1,9 @@
+
+public class UserManager extends User {
+	
+	public void Add() 
+	{
+		
+	}
+	
+}

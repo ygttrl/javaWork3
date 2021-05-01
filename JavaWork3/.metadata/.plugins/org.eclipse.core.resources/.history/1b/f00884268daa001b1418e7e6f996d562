@@ -1,0 +1,26 @@
+
+public class MAIN {
+
+	public static void main(String[] args) {
+		 
+		User user = new User();
+		user.setId(1);
+		user.setName("denemeAd");
+		user.setSurname("denemeSoyad");
+		user.setIdentityNumber("12543765678");
+		
+		UserManager userManager = new UserManager();
+		userManager.Add(user);
+		
+		
+		Student student = new Student();
+		student.setId(1);
+		student.setName("Student_Ad");
+		student.setSurname("Student_Soyad");
+		student.setIdentityNumber("493047603439");
+		student.setStudentNumber("56456");
+		student.setCourseName("Java");
+		
+	}
+
+}
